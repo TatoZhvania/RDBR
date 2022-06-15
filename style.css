@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@200&family=Shizuru&family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@200&family=Rowdies:wght@300&family=Shizuru&family=Work+Sans:wght@600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(images/stars.png);
+  background-color: rgb(19, 19, 19);
+
+  width: 100%;
+
+  height: 100%;
+  background-size: 100px;
+  color: red;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main_text {
+  padding-top: 90px;
+  font-family: 'Rowdies';
+  color: #fe3b1f;
+  font-size: 90px;
+  line-height: 119px;
+  font-style: normal;
+  font-weight: normal;
+
+  justify-content: center;
+}
+
+.start {
+  margin-top: 50px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  width: 370px;
+  height: 60px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #fe3b1f;
+  padding: 13px;
+  border-radius: 50px;
+  border: 1px solid #fe3b1f;
+}
+
+.start:hover {
+  background-color: rgb(24, 23, 23);
+  color: #fe3b1f;
+  transition: 0.3s;
+}
+
+.sbmt {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  width: 280px;
+  padding-top: 25px;
+  color: #fff;
+  padding-bottom: 0px;
+}
+
+.astronaut {
+  position: relative;
+  width: 409.92px;
+  height: 372.45px;
+  top: -50px;
+  padding-bottom: 0px;
+}
+
+/***************** Second Page ****************/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@200&family=Rowdies:wght@300&family=Shizuru&family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:ital,wght@1,200&family=Roboto+Mono:wght@200&family=Rowdies:wght@300&family=Shizuru&family=Work+Sans:wght@600&display=swap');
+.contact_container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.login h2 {
+  font-family: 'Rowdies', cursive;
+  color: #fe3b1f;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.login {
+  background-color: #ffffff;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.login input {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  border: 1px solid rgb(14, 14, 14);
+  margin: 15px;
+  padding-left: 50px;
+  width: 400px;
+  height: 50px;
+}
+
+.origins_texts {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
+  display: flex;
+
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.origins_texts h2 {
+  padding-top: 60px;
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 79px;
+  text-align: center;
+  align-items: center;
+  color: #fe3b1f;
+}
+
+.origins_texts p {
+  padding-left: 60px;
+  padding-right: 40px;
+  padding-top: 80px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 19px;
+  line-height: 200%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.next-previous-btns {
+  filter: brightness(1.2);
+  position: absolute;
+  bottom: 40px;
+  left: 15%;
+  background-color: rgb(172, 172, 172);
+  height: 5vh;
+  border-radius: 10px;
+}
+
+.btns_items {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  gap: 20px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+/******************* Skills Page ******************/
+
+.login_skills h2 {
+  font-family: 'Rowdies', cursive;
+  color: #fe3b1f;
+  margin-bottom: 50px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.format {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  border: 1px solid rgb(14, 14, 14);
+  margin: 15px;
+  padding-left: 50px;
+  width: 400px;
+  height: 50px;
+  font-weight: 400;
+}
+
+.login_skills {
+  padding-top: 80px;
+  background-color: #ffffff;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.login_skills input {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  border: 1px solid rgb(14, 14, 14);
+  margin: 15px;
+
+  padding-left: 50px;
+  width: 400px;
+  height: 50px;
+}
+
+.login_skills a {
+  text-decoration: none;
+}
+
+.add_btn {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #fe3b1f;
+  border: 2px solid #fe3b1f;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 2px;
+  color: #ffffff;
+  padding-left: 5px;
+  margin-left: 55%;
+  width: 190px;
+  height: 30px;
+}
+
+.add_btn:hover {
+  background-color: #303030;
+  color: #fe3b1f;
+  transition: 0.3s;
+}
+
+/************************* Covid Page **************************/
+
+.covid_container {
+  width: 80%;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.covid_texts {
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: radial-gradient(50% 50% at 50% 50%, #0c0d0e 0%, #151718 73.44%);
+  display: flex;
+
+  flex-direction: column;
+  width: 50%;
+  height: 1250px;
+}
+
+.covid_texts h2 {
+  padding-top: 60px;
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 79px;
+  text-align: center;
+  align-items: center;
+  color: #fe3b1f;
+}
+
+.covid_texts p {
+  padding-left: 60px;
+  padding-right: 40px;
+  padding-top: 80px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 19px;
+  line-height: 200%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.covid h2 {
+  font-family: 'Rowdies', cursive;
+  color: #fe3b1f;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 150px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.work {
+  margin-left: 80px;
+}
+
+.work_items_1 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.work_items_1 {
+  padding-top: 20px;
+}
+
+.work_items_1 label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.work_items_2 {
+  margin-top: 80px;
+}
+
+.work_items_2 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.work_items_2 label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.date {
+  margin-top: 90px;
+  align-items: center;
+}
+
+.date p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-left: 75px;
+}
+
+.date input {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  border: 1px solid rgb(14, 14, 14);
+  margin: 15px;
+  margin-left: 75px;
+  padding-left: 50px;
+  width: 400px;
+  height: 50px;
+}
+
+.vaccinate {
+  margin-top: 90px;
+  align-items: center;
+}
+
+.vaccinate p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-left: 75px;
+}
+
+.vaccinate label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.vaccinate input {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  border: 1px solid rgb(14, 14, 14);
+
+  margin-left: 75px;
+  padding-left: 50px;
+}
+
+.last_vaccine {
+  margin-top: 90px;
+  align-items: center;
+}
+
+.last_vaccine p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-left: 75px;
+}
+
+.last_vaccine input {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  border: 1px solid rgb(14, 14, 14);
+  margin: 15px;
+  margin-left: 75px;
+  padding-left: 50px;
+  width: 400px;
+  height: 50px;
+}
+
+.next-previous-btns__covid {
+  filter: brightness(1.2);
+  position: relative;
+  top: 100px;
+  width: 20%;
+  left: 10%;
+  margin-bottom: 20px;
+  background-color: #151718;
+  height: 5vh;
+  border-radius: 10px;
+}
